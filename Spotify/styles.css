@@ -1,0 +1,171 @@
+* {
+    background-color: transparent;
+    color: #fff;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: #121212;
+}
+
+.container-master {
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido se apile verticalmente */
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea los elementos al inicio horizontalmente */
+    height: 100vh;
+    padding: 2.5dvh;
+    margin: 0dvh 18dvh;
+    background-image: url('24.png'); /* Ruta de tu imagen */
+    background-size: cover; /* La imagen cubre todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    color: white;
+}
+
+header {
+    margin: 0dvh 16dvh;
+}
+
+#spoty-img {
+    height: auto;
+    width: 40px;
+}
+
+#wraped {
+    justify-content: left;
+    width: 9rem;
+    letter-spacing: -5px;
+    margin-bottom: 1.2dvh;
+}
+
+#wraped h1 {
+    font-size: 9rem;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin-bottom: 0.50px;
+}
+
+#Wrap {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+#content {
+    margin-left: 67dvh;
+    color: white;
+    font-weight: 500;
+    line-height: 3dvh;
+    padding-right: 3dvh;
+    margin-bottom: 6dvh;
+}
+
+#button-lisen {
+    margin-top: 2dvh;
+    display: inline-block;
+    background-color: #1ed760; /* Verde característico de Spotify */
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px; /* Botón redondeado */
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#button-lisen:hover {
+    background-color: #3be477; 
+    font-size: 1.2rem;
+}
+
+#Wrap {
+    margin-left: 7dvh;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-bottom: 2dvh;
+    padding-right: 75dvh;
+}
+
+.content-rows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5dvh;
+    padding-left: 10dvh;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 8dvh;
+    width: 120dvh;
+}
+
+.block-rows {
+    font-size: 4dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 5dvh;
+    padding-bottom: 0dvh;
+    margin-bottom: 0dvh;
+    width: 100%;
+}
+
+.block-rows h2{
+    margin-bottom: 0px;
+    letter-spacing: -2px;
+    font-weight: 800;
+}
+
+.block-rows p {
+    font-size: 2dvh;
+    letter-spacing: -1px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list-footer {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 20dvh;
+    display: flex;
+    justify-content: center;
+    margin: 5dvh;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item-list {
+    transition: color 0.3s ease;
+    margin-right: 2dvh;
+    transition: 0.3s ease;
+    font-size: 1.3dvh;
+    letter-spacing: -1px;
+    color: white;
+}
